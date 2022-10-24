@@ -171,3 +171,16 @@ for epoch in range(1, epochs + 1):
 
 - Assumes each dataset sample is independent of one another
 - Assumes large losses correlate to poorly labeled samples
+
+## Citation
+
+If you find this work useful, please consider citing it.
+
+```
+@misc{hsu2022datasetq,
+  title        = {A heap queue dataset sampler for loss-based priority sampling},
+  author       = {Brandhsu},
+  howpublished = {https://github.com/Brandhsu/datasetq},
+  year         = {2022}
+}
+```
