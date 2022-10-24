@@ -35,13 +35,21 @@ To keep it brief, it works on the MNIST datasets but doesn't work on ImageNet, s
 | Dataset         | Training Script                                       | Training Summary                                            | Training Visualization                                            |
 | --------------- | ----------------------------------------------------- | ----------------------------------------------------------- | ----------------------------------------------------------------- |
 | MNIST           | [mnist.sh](benchmarks/mnist/mnist.sh)                 | [mnist/summary.ipynb](benchmarks/mnist/summary.ipynb)       | [mnist/visualization.ipynb](benchmarks/mnist/visualization.ipynb) |
-| Kuzushiji-MNIST | [kmnist.sh](benchmarks/mnist/kmnist.sh)               | [mnist/summary.ipynb](benchmarks/mnist/summary.ipynb)       | [mnist/visualization.ipynb](benchmarks/mnist/visualization.ipynb) |
-| Fashion-MNIST   | [fashion-mnist.sh](benchmarks/mnist/fashion_mnist.sh) | [mnist/summary.ipynb](benchmarks/mnist/summary.ipynb)       | [mnist/visualization.ipynb](benchmarks/mnist/visualization.ipynb) |
+| Kuzushiji-MNIST | [kmnist.sh](benchmarks/mnist/kmnist.sh)               | [mnist/summary.ipynb](benchmarks/mnist/summary.ipynb)       |                                                                   |
+| Fashion-MNIST   | [fashion-mnist.sh](benchmarks/mnist/fashion_mnist.sh) | [mnist/summary.ipynb](benchmarks/mnist/summary.ipynb)       |                                                                   |
 | ImageNet        | [imagenet.sh](benchmarks/imagenet/imagenet.sh)        | [imagenet/summary.ipynb](benchmarks/imagenet/summary.ipynb) | [imagenet/summary.ipynb](benchmarks/imagenet/summary.ipynb)       |
 
 ```python
 # Minor note regarding the configurations tested (random sampling is the same as loss-priority sampling with steps=1)
 {"sampler": False, "shuffle": True} == {"sampler": True, "steps": 1, "shuffle": True}
+```
+
+## Installation
+
+This package works with Python 3.6+.
+
+```shell
+$ pip install -e .
 ```
 
 ## Examples
