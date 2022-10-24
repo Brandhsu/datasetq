@@ -2,8 +2,8 @@ import math
 from typing import Dict, List, Tuple, Sized
 from torch.utils.data import Sampler, SequentialSampler, SubsetRandomSampler
 
-import util
-from _data import Item, Priority
+from . import util
+from ._data import Item, Priority
 
 
 class HeapqSampler(Sampler[int]):

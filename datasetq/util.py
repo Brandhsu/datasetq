@@ -2,9 +2,9 @@
 
 
 import pandas as pd
-from _heapq import HeapQ
-from _verify import is_heap
-from _metric import calibrate_metric
+from ._heapq import HeapQ
+from ._verify import is_heap
+from ._metric import calibrate_metric
 
 
 def _namedtuple_to_dict(tup: tuple):
