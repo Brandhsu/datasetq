@@ -1,0 +1,2 @@
+*.ipynb linguist-documentation
+*.csv filter=lfs diff=lfs merge=lfs -text

@@ -1,0 +1,1 @@
+{"dataset": "mnist", "train_kwargs": {"batch_size": 64, "sampler": true, "shuffle": true, "max_visits": 25}, "test_kwargs": {"batch_size": 1000, "sampler": true, "steps": 1, "shuffle": false}, "n_trials": 1, "epochs": 14, "lr": 1.0, "gamma": 0.7, "no_cuda": false, "seed": 2147483648, "save_dir": "results", "device": "cuda"}
