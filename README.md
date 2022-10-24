@@ -32,12 +32,12 @@ These experiments were carried out between March - April 2022.
 
 To keep it brief, it works on the MNIST datasets but doesn't work on ImageNet, so in other words, it doesn't work **yet** 😒.
 
-| Dataset         | Training Script                                       | Training Summary                                            | Training Visualization                                            |
-| --------------- | ----------------------------------------------------- | ----------------------------------------------------------- | ----------------------------------------------------------------- |
-| MNIST           | [mnist.sh](benchmarks/mnist/mnist.sh)                 | [mnist/summary.ipynb](benchmarks/mnist/summary.ipynb)       | [mnist/visualization.ipynb](benchmarks/mnist/visualization.ipynb) |
-| Kuzushiji-MNIST | [kmnist.sh](benchmarks/mnist/kmnist.sh)               | [mnist/summary.ipynb](benchmarks/mnist/summary.ipynb)       |                                                                   |
-| Fashion-MNIST   | [fashion-mnist.sh](benchmarks/mnist/fashion_mnist.sh) | [mnist/summary.ipynb](benchmarks/mnist/summary.ipynb)       |                                                                   |
-| ImageNet        | [imagenet.sh](benchmarks/imagenet/imagenet.sh)        | [imagenet/summary.ipynb](benchmarks/imagenet/summary.ipynb) | [imagenet/summary.ipynb](benchmarks/imagenet/summary.ipynb)       |
+| Dataset         | Training Script                                       | Training Summary                                            | Training Visualization                                                  |
+| --------------- | ----------------------------------------------------- | ----------------------------------------------------------- | ----------------------------------------------------------------------- |
+| MNIST           | [mnist.sh](benchmarks/mnist/mnist.sh)                 | [mnist/summary.ipynb](benchmarks/mnist/summary.ipynb)       | [mnist/visualization.ipynb](benchmarks/mnist/visualization.ipynb)       |
+| Kuzushiji-MNIST | [kmnist.sh](benchmarks/mnist/kmnist.sh)               | [mnist/summary.ipynb](benchmarks/mnist/summary.ipynb)       |                                                                         |
+| Fashion-MNIST   | [fashion-mnist.sh](benchmarks/mnist/fashion_mnist.sh) | [mnist/summary.ipynb](benchmarks/mnist/summary.ipynb)       |                                                                         |
+| ImageNet        | [imagenet.sh](benchmarks/imagenet/imagenet.sh)        | [imagenet/summary.ipynb](benchmarks/imagenet/summary.ipynb) | [imagenet/visualization.ipynb](benchmarks/imagenet/visualization.ipynb) |
 
 ```python
 # Minor note regarding the configurations tested (random sampling is the same as loss-priority sampling with steps=1)
