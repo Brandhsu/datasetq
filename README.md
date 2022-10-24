@@ -2,7 +2,7 @@
 
 <div>
 <img src="https://badgen.net/badge/python/3.6+/blue">
-<img src="https://badgen.net/github/license/brandhsu/datasetq">
+<img src="https://badgen.net/github/license/Brandhsu/datasetq">
 <img src="https://badgen.net/badge/code%20style/black?color=black">
 </div>
 
